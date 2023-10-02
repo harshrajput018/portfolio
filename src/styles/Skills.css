@@ -1,0 +1,50 @@
+.typewriter-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #333;
+    }
+  }
+
+  .allskills img{
+    height: 100px;
+}
+  
+  @media screen and (max-width:1030px) {
+
+    .typewriter-text{
+        white-space: wrap;
+        font-size: 1rem;
+    }
+
+    .allskills img{
+        height: 50px;
+    }
+    
+    .gif img{
+        display: none;
+    }
+    
+  }
