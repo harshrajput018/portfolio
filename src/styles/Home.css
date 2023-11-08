@@ -15,7 +15,7 @@
 
 
 .image img{
-   width: 50%;
+   width: 60%;
    margin-top: -40px;
 
 
@@ -45,10 +45,18 @@
 
 @media screen and (max-width: 800px) {
     .name{
-        font-size: 3rem;
+        font-size: 1.75rem;
+        font-weight: bolder;
     }
     .designation{
         font-size: 1.2rem;
+        font-weight: bold;
     }
     
+    .image img{
+        width: 80%;
+        margin-top: -40px;
+     
+     
+     }
 }
