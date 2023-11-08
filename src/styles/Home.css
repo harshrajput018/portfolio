@@ -46,11 +46,12 @@
 @media screen and (max-width: 800px) {
     .name{
         font-size: 1.75rem;
+        padding-bottom: 0.25rem;
         font-weight: bolder;
     }
     .designation{
-        font-size: 1.2rem;
-        font-weight: bold;
+        font-size: 1.05rem;
+        font-weight: 300;
     }
     
     .image img{
