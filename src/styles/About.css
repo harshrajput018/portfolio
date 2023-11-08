@@ -1,6 +1,6 @@
-.about-container{
+#about-container{
 
-    min-height: 80vh;
+    min-height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,12 +8,14 @@
     
 
 }
+
+
 .About-content{
     
     padding: 2rem 15%;
     line-height: 2rem;
     text-align: center;
-    background-color: rgb(213, 242, 244);
+    background-color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #000080; /* Dark font color */
     font-size: larger;
@@ -25,4 +27,13 @@
 
 .About-content h2{
     font-size: 2rem;
+}
+
+@media screen and (max-width:800px) {
+
+    .About-content{
+        text-align: start;
+        padding:2rem
+    }
+    
 }

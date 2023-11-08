@@ -11,9 +11,9 @@ const Home = () => {
                 }} src="https://miro.medium.com/v2/resize:fit:1360/1*IRGHmiGsa16stedQvIaZfw.gif" alt="" />
             </div>
 
-            <h1 className="name">
+            <div className="name">
                 Harsh Rajput
-            </h1>
+            </div>
             <div className="designation">
                 Full Stack Web Developer
             </div>

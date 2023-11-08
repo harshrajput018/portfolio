@@ -35,7 +35,7 @@ const Skills = () => {
 
 
     return (
-        <div id='skills-container' style={{ minHeight: '70vh', padding: '6rem 0', borderBottom: 'solid 1px #e3dae0' }}>
+        <div id='skills-container' style={{   borderBottom: 'solid 1px #e3dae0' }}>
 
 
 
@@ -43,7 +43,7 @@ const Skills = () => {
                 {displayText}
             </p>
 
-            <div style={{display:'flex', padding:'3rem'}}>
+            <div className='padding-cont' style={{display:'flex'}}>
             <div className='gif' style={{ display: 'flex', justifyContent: 'center', margin: '3rem 0' }}>
                     <img style={{ borderRadius: '2rem', height:'40vh' }} src="https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif" alt="" />
                 </div>
