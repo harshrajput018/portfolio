@@ -46,7 +46,7 @@
 @media screen and (max-width: 800px) {
     .name{
         font-size: 1.75rem;
-        padding-bottom: 0.25rem;
+        padding: 1rem 0;
         font-weight: bolder;
     }
     .designation{
