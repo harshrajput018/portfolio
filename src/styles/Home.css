@@ -45,7 +45,10 @@
 
 @media screen and (max-width: 800px) {
     .name{
-        font-size: 3.5rem;
+        font-size: 3rem;
+    }
+    .designation{
+        font-size: 1.2rem;
     }
     
 }
