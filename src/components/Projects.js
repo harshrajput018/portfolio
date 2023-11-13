@@ -36,10 +36,10 @@ const Projects = () => {
     return (
         <div id='projects-container' className='project-section'>
             <div className='heading-project' >Portfolio Picks</div>
-            <p style={{ textAlign: 'center', padding: '0 0.55rem' }}>A glimpse into my world of creativity and innovation.</p>
+            <div className= "para" style={{ textAlign: 'center', padding: '0 0.55rem' }}>A glimpse into my world of creativity and innovation.</div>
             <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
                 
-                <div className="projects-container">
+                <div className="projects-container container-div">
                     {description.map(elem => {
                         console.log(elem.link)
                         return (<a id={elem.link} href={elem.link} onClick={() => {
