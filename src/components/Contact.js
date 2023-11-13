@@ -14,15 +14,7 @@ const Contact = () => {
                 <a href='' className='cont-img'>
                     <img  src={require('../images/github.png')} alt="" />
                 </a>
-                <a href='' className='cont-img'>
-                    <img  src={require('../images/mail.webp')} alt="" />
-                </a>
-                <a href='' className='cont-img'>
-                    <img  src={require('../images/phone.webp')} alt="" />
-                </a>
-                <a href='' className='cont-img'>
-                    <img  src={require('../images/instagram.avif')} alt="" />
-                </a>
+                
             </div>
 
 

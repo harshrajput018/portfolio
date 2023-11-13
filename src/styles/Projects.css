@@ -1,10 +1,11 @@
 .project-section
 {
-    width: 99%;
+    width: 100%;
     min-height: 70vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
+    justify-content: center;
 
     box-shadow: 0 1px lightblue
     
@@ -24,14 +25,17 @@
 .projects-container
 {
     
-   background-color:rgb(250, 228, 228);
+   
     display: flex;
     width: 100%;
-    padding: 5% 1rem;
-    justify-content: center;
-    
-    gap: 15%;
+    padding: 1rem 0;
+    justify-content: flex-start;
+    gap: 100px;
+    overflow: hidden;
     overflow: scroll;
+    height: 65vh;
+    margin-left: 200px;
+
     
 }
 
@@ -39,26 +43,24 @@
 
 .projects-item{
     
-    
+    background-color: white;
     text-decoration: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 350px;
+    height: fit-content;
+}
+.projects-item:hover{
+    background-color: rgba(55,172,65,255);
+    
+    
 }
 
 .img1{
-    height: 40vh;
+    width: 350px;
+    border-radius: 0.2rem;
     
-    transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
 
-    
-    
-    border-radius: 1rem;
-    
-    
-}
-.img1:hover{
-    height: 50vh;
-    opacity: 90%;
-    cursor: pointer;
-}
 .txt1{
     margin-top: -28vh;
     color: aliceblue;
@@ -71,25 +73,21 @@
 
 
 .heading-project{
-    color: rgb(122, 122, 9);
+    color: rgba(55,172,65,255);
     font-size: 4rem;
     font-family: cursive;
     padding: 0;
     padding-top: 3rem;
     margin: 0;
-    width: 90%;
+    width: 100%;
     text-align: center;
+    font-weight: 525;
     
 }
 
 @media screen and (max-width:1000px) {
 
-    .projects-container
-{
-    overflow: scroll;
-    justify-content: left;
-    
-}
+  
 
 .heading-project{
     font-size: 3.5rem;
@@ -97,5 +95,37 @@
 
 
 }
+
+.project-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.2rem;
+    
+    text-align: center;   
+    border-bottom-left-radius: 0.2rem ;
+    border-bottom-right-radius: 0.2rem;
+}
+
+.project-description .title{
+    font-weight: 700;
+    color: black;
+    font-size: 1.45rem;
+}
+
+.project-description .content{
+    color: grey;
+}
+
+.projects-item:hover .project-description .title {
+    /* Styles for the .title when .projects-item is hovered */
+    color: white;
+}
+.projects-item:hover .project-description .content {
+    /* Styles for the .title when .projects-item is hovered */
+    color: white;
+}
+
+
 
 
