@@ -103,6 +103,7 @@
 
     .projects-container{
         gap: 30px;
+        padding: 1rem 20px;
     }
     
     .img1{
