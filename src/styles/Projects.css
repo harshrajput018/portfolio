@@ -34,7 +34,7 @@
    
     overflow-x: scroll;
     overflow-y: hidden;
-    height: 65vh;
+    height: fit-content;
     padding:2rem 50px;
     padding-top: 2rem;
 
@@ -89,7 +89,9 @@
 
 @media screen and (max-width:1000px) {
 
-  
+  .projects-container{
+    padding: 2rem 20px;
+  }
 
 .heading-project{
     font-size: 3.5rem;
@@ -103,9 +105,8 @@
 
     .projects-container{
         gap: 30px;
-        padding: 1rem 20px;
-        padding-bottom: 0;
-        height: 55vh;
+        
+        
     }
     
     .img1{
